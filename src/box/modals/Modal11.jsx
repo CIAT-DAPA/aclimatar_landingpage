@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { motion } from "framer-motion";
 import './style.css'
 const Modal11 = () => {
     const [modalOpen, setModalOpen] = useState(false);

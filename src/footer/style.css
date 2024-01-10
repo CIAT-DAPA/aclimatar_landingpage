@@ -1,0 +1,12 @@
+.footerContain{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 30px;
+}
+.footerContain p{
+    font-weight: bold;
+}
+.footerContain p span{
+    font-weight: 600;
+}
