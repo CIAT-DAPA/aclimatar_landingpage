@@ -4,7 +4,7 @@ const Modal18 = () => {
     return (
         <div className="div18">
             <p className="div18container__text">
-                                Lorem, ipsum dol
+                               CLIMATE SMART COCOA BASICS
 
                     </p>
             </div>
