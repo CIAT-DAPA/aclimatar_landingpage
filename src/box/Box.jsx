@@ -34,7 +34,7 @@ function Box() {
             <Modal8/>
             <Modal9/>
             <Modal10/>
-           <Modal11 />
+            <Modal11 />
             <Modal12/>
             <Modal13/>
             <Modal14/>

@@ -15,10 +15,30 @@
   grid-area: 1 / 1 / 7 / 3;
   background-color: #6dba4e;
  }
- .div1:hover{
+ .div1:hover,
+ .div2:hover,
+ .div3:hover,
+ .div4:hover,
+ .div5:hover,
+ .div6:hover,
+ .div7:hover,
+ .div8:hover,
+ .div9:hover,
+ .div10:hover,
+ .div11:hover,
+ .div12:hover,
+ .div13:hover,
+ .div14:hover,
+ .div15:hover,
+ .div16:hover,
+ .div17:hover,
+ .div18:hover,
+ .div19:hover
+ {
   box-shadow: -1px 4px 26px 12px rgba(96,96,96,0.22);
 -webkit-box-shadow: -1px 4px 26px 12px rgba(96,96,96,0.22);
 -moz-box-shadow: -1px 4px 26px 12px rgba(96,96,96,0.22);
+cursor:pointer;
  }
 
   .div2 { 
