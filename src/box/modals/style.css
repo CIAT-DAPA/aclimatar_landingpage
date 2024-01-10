@@ -19,10 +19,7 @@
     border-radius: 2px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     position: absolute;
-    top: 163px;
-    right: 143px;
     width: 410px;
-    height: 68%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +28,8 @@
     text-align: justify;
     font-size: 1.1rem;
     letter-spacing: 1px;
-    
+    top: 90px;
+    height: 430px;
   }
   
   .close-button11 {

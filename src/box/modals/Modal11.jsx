@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import './style.css'
 const Modal11 = () => {
     const [modalOpen, setModalOpen] = useState(false);
@@ -21,7 +21,7 @@ const Modal11 = () => {
 
 
                 {modalOpen && (
-                    <div className="modal11-container">
+                    
                     <div className="modal11-content">
                         <p>Community-led deforestation alert monitoring is an effective approach to halting deforestation.
                         Rewarding communities with outcome-based payments for ecosystem services incentivizes reporting
@@ -31,7 +31,7 @@ const Modal11 = () => {
                         X
                         </button>
                     </div>
-                    </div>
+                    
                 )}
                             
         </div>
