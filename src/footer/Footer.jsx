@@ -5,7 +5,7 @@ function Footer() {
     return (
       <div className="footerContain">
         <p>
-          CONTACT: <span>contact@ciat.org</span>
+          CONTACT: <span>c.bunn@cgiar.org</span>
         </p>
         
       </div>
