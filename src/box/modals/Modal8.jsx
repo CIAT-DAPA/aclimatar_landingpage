@@ -3,9 +3,11 @@ const Modal8 = () => {
     
     return (
         <div className="div8">
-        <span className="div8container__text">
-            Ssssjsj America
-        </span>
+            <a href="https://aclimatar.org/" target="blank"> 
+                <span className="div8container__text">
+                    Central America
+                </span>
+            </a>
     </div>
     
     );

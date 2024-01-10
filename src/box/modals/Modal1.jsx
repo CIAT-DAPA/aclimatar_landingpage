@@ -6,7 +6,7 @@ const Modal1 = () => {
         <div className="div1">
         <section className="div1container1">
             <div className="div1container1__img">
-                <img src="./logos/coffeeSeed.svg" alt="" />
+                <img src="./logos/cacao.svg" alt="" />
                 <img src="" alt="" />
             </div>
             <p className="div1container1__text">
@@ -14,7 +14,7 @@ const Modal1 = () => {
             </p>
             <div className="div1container1__img">
                 <img src="" alt="" />
-                <img src="./logos/coffeeSeed.svg" alt="" />
+                <img src="./logos/coffee.svg" alt="" />
             </div>
         </section >
         <section className="div1container2">

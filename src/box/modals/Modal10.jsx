@@ -3,15 +3,16 @@ const Modal10 = () => {
     
     return (
         <div className="div10">
-                <div className="container10__text">
-                            <span className="div10container__text">
-                                REGENERATIVE AGRICULTURE
-                            </span>
-                            <p className="div10container__text2">
-                                Lorem, ipsum dolor sit amet consectetur adipidoloribus voip lorem imput dolor
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, in incidunt quia a, illo nobis ipsa temporibus eaque, quo excepturi ve
-
-                            </p>
+                <div className="container10__text"> 
+                    <a href="https://eiademo.irri.org/enrol/index.php?id=163" target="blank"> 
+                        <span className="div10container__text">
+                        FREE ONLINE LEARNING MODULE
+                        </span>
+                        <p className="div10container__text2">
+                        Climate Adaptation Strategies for Cocoa Farmers: Understanding Climate Hazards and Data Interpretation
+                        </p>
+                    
+                    </a>
                 </div>
             </div>
     
