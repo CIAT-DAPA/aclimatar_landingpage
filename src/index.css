@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  height: 80vh;
+  }
+  
+  .div1 { 
+  grid-area: 1 / 1 / 7 / 3;
+  background-color: #6dba4e;
+ }
+ .div1:hover{
+  box-shadow: -1px 4px 26px 12px rgba(96,96,96,0.22);
+-webkit-box-shadow: -1px 4px 26px 12px rgba(96,96,96,0.22);
+-moz-box-shadow: -1px 4px 26px 12px rgba(96,96,96,0.22);
+ }
+
+  .div2 { 
+    grid-area: 1 / 3 / 3 / 5; 
+    background-color: #f1c40f;
+  }
+  .div3 {
+     grid-area: 3 / 3 / 5 / 5;
+     background-color: #5271ff;
+   }
+  .div4 { 
+    grid-area: 5 / 3 / 7 / 5; 
+    background-color: #8c52ff;
+   }
+  .div5 { 
+    grid-area: 1 / 5 / 3 / 9; 
+    background-color: #f39c11;
+  }
+  
+  .div6 { 
+    grid-area: 3 / 5 / 5 / 7; 
+    background-color: #0097b2;
+   }
+  .div7 { 
+    grid-area: 3 / 7 / 4 / 9; 
+    background-color: #38b7ff;
+  }
+  .div8 {
+    grid-area: 4 / 7 / 5 / 8; 
+    background-color: #3598db;
+  }
+  .div9 { 
+    grid-area: 4 / 8 / 5 / 9;
+    background-color: #3283ef;
+  }
+  .div10 { 
+    grid-area: 5 / 5 / 7 / 8; 
+    background-color: #cb6be6;
+  }
+  .div11 { 
+    grid-area: 1 / 9 / 2 / 13; 
+    background-color: #e84c3d;
+  }
+  .div12 { 
+    grid-area: 2 / 9 / 3 / 11;
+    background-color: #c1392b;
+  }
+  .div13 { 
+    grid-area: 2 / 11 / 3 / 13; 
+    background-color: #d25400;
+  }
+  .div14 { 
+    grid-area: 3 / 9 / 5 / 11;
+    background-color: #0097b2; 
+  }
+  .div15 { 
+    grid-area: 3 / 11 / 4 / 13;
+    background-color: #38b6ff; 
+  }
+  .div16 { 
+    grid-area: 4 / 11 / 5 / 12; 
+    background-color: #3598db; 
+  }
+  .div17 { 
+    grid-area: 4 / 12 / 5 / 13; 
+    background-color: #3283ef;
+  }
+  .div18 { 
+    grid-area: 5 / 11 / 7 / 13;
+    background-color: #5b3f94;
+  }
+  .div19 { 
+    grid-area: 5 / 8 / 7 / 11; 
+    background-color: #8d44af;
+  }

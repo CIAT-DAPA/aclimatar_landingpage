@@ -1,0 +1,284 @@
+.div1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 30px;
+    padding: 30px 0;
+    align-items: center;
+}
+.div1container1{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+.div1container1__img {
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div1container1__img img{
+    width: 50px;
+}
+.div1container1__text{
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+}
+.div1container2 {
+    width: 160px;
+    height: 150px;
+    border-top: 5px solid white;
+    padding: 1rem 1rem 0 1rem;
+}
+.div1container2__text1{
+    font-size: 0.8rem;
+}
+.text__box{
+    display:flex
+}
+.div1container2__text2{
+    font-size: 1rem;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+}
+.div1container2__num{
+    font-size: 2.5rem;
+}
+/* ___________2________________ */
+.div2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div2container2__img{
+    width: 50px;
+
+}
+.div2container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div2container2__text{
+    font-size: 1.3rem;
+}
+/* ___________3________________ */
+.div3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div3container__img{
+    width: 50px;
+
+}
+.div3container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div3container__text{
+    font-size: 1.3rem;
+}
+/* ___________4_______________ */
+.div4{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div4container__img{
+    width: 50px;
+
+}
+.div4container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div4container__text{
+    font-size: 1.3rem;
+}
+/* ___________5______________ */
+.div5{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div5container__text{
+    font-size: 1.3rem;
+}
+.div5container__text2{
+    font-size: 0.8rem;
+}
+/* ___________6_____________ */
+.div7{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div6container__text{
+    font-size: 1.3rem;
+}
+/* ___________7____________ */
+.div6{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div7container__text{
+    font-size: 1rem;
+}
+/* ___________8____________ */
+.div8{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div8container__text{
+    font-size: 0.8rem;
+}
+/* ___________9___________ */
+.div9{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div9container__text{
+    font-size: 0.8rem;
+}
+/* ___________10______________ */
+.div10{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div10container__text{
+    font-size: 1.3rem;
+}
+.div10container__text2{
+    font-size: 0.8rem;
+}
+/* ___________11___________ */
+.div11{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div11container__text{
+    font-size: 1rem;
+}
+/* ___________12______________ */
+.div12{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div12container__text{
+    font-size: 0.8rem;
+}
+/* ___________13______________ */
+.div13{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div13container__text{
+    font-size: 0.8rem;
+}
+/* ___________14______________ */
+.div14{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div14container__text{
+    font-size: 1rem;
+}
+.div14container__text2{
+    font-size: 0.8rem;
+}
+/* ___________15______________ */
+.div15{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div15container__text{
+    font-size: 1rem;
+}
+/* ___________16______________ */
+.div16{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div16container__text{
+    font-size: 0.8rem;
+}
+/* ___________17______________ */
+.div17{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div17container__text{
+    font-size: 0.8rem;
+}
+/* ___________18______________ */
+.div18{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div18container__text{
+    font-size: 1rem;
+}
+/* ___________19______________ */
+.div19{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div19container__text{
+    font-size: 1rem;
+}
+
