@@ -9,7 +9,7 @@ const Modal14 = () => {
                                 SEASONAL ADAPTATION
                             </span>
                             <p className="div14container__text2">
-                            Card with explanation (later infonote)
+                          
 
                             </p>
                 </div>
