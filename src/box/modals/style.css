@@ -1,4 +1,143 @@
 /* MODALLES */
+/* _____________1____________ */
+.modal1-content {
+  background-color: #6dba4e;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem 20px 1rem;
+  text-align: justify;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  top: 0px;
+  height: 100%;
+}
+
+.close-button1 {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 6px 13px;
+  border: none;
+  border-radius: 50%;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+.close-button1:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+/* _______________2______________ */
+.modal2-content {
+  background-color: #f1c40f;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 20px 1rem;
+  text-align: justify;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  top: 0px;
+  height: 100%;
+  left: 0;
+}
+
+.close-button2 {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 6px 13px;
+  border: none;
+  border-radius: 50%;
+  font-weight: bold;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+  border: 1px solid black;
+}
+.close-button2:hover {
+  background-color: black;
+  color: white;
+}
+/* _______________3______________ */
+.modal3-content {
+  background-color:#5271ff;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 20px 1rem;
+  text-align: justify;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  top: 0px;
+  height: 100%;
+  left: 0;
+}
+.close-button3 {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 6px 13px;
+  border: none;
+  border-radius: 50%;
+  font-weight: bold;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+  border: 1px solid black;
+}
+.close-button3:hover {
+  background-color: black;
+  color: white;
+}
+/* _______________4______________ */
+.modal4-content {
+  background-color :#8c52ff;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 20px 1rem;
+  text-align: justify;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  top: 0px;
+  height: 100%;
+  left: 0;
+}
+.close-button4 {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 6px 13px;
+  border: none;
+  border-radius: 50%;
+  font-weight: bold;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+  border: 1px solid black;
+}
+.close-button4:hover {
+  background-color: black;
+  color: white;
+}
+
 
 /* ______________11_____________ */
 /* Estilos para el modal */

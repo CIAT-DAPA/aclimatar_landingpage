@@ -11,14 +11,10 @@
   height: 80vh;
   }
   
-  .div1 { 
-  grid-area: 1 / 1 / 7 / 3;
-  background-color: #6dba4e;
- }
- .div1:hover,
- .div2:hover,
- .div3:hover,
- .div4:hover,
+  .div1:hover,
+  .div2:hover,
+  .div3:hover,
+  .div4:hover,
  .div5:hover,
  .div6:hover,
  .div7:hover,
@@ -36,10 +32,14 @@
  .div19:hover
  {
   box-shadow: -1px 4px 26px 12px rgba(96,96,96,0.22);
--webkit-box-shadow: -1px 4px 26px 12px rgba(96,96,96,0.22);
--moz-box-shadow: -1px 4px 26px 12px rgba(96,96,96,0.22);
-cursor:pointer;
- }
+  -webkit-box-shadow: -1px 4px 26px 12px rgba(96,96,96,0.22);
+  -moz-box-shadow: -1px 4px 26px 12px rgba(96,96,96,0.22);
+  cursor:pointer;
+}
+  .div1 { 
+  grid-area: 1 / 1 / 7 / 3;
+  background-color: #6dba4e;
+  }
 
   .div2 { 
     grid-area: 1 / 3 / 3 / 5; 
