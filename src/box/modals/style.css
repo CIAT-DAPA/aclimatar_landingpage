@@ -140,28 +140,42 @@
 
 /* _________________9______________ */
 /* Estilos para el modal */
-.modal9-container {
+.modalT-container {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    top: 0;
+    left: 200px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.modal9-content {
+.modalT-content {
   background-color: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 50%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  border: 1px solid black;
+}
+.imgModalT {
+  max-width: 100%;
+  max-height: 80%;
 }
 
-/* Estilos adicionales para el botón de cerrar el modal */
-.close-button9 {
+.close-buttonT {
+  color: black;
+  border: none;
+
+}
+.url-buttonT {
   cursor: pointer;
-  background-color: #ccc;
+  background-color: #6dba4e;
   padding: 8px 12px;
   border: none;
   border-radius: 4px;
@@ -172,7 +186,7 @@
 /* ______________11_____________ */
 /* Estilos para el modal */
 .modal11-container {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -197,7 +211,7 @@
     text-align: justify;
     font-size: 1.1rem;
     letter-spacing: 1px;
-    top: 90px;
+    top: 160px;
     height: 430px;
   }
   

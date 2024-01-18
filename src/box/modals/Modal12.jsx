@@ -1,12 +1,37 @@
-
+import { useState } from 'react';
+import './style.css'
 const Modal12 = () => {
+    const [modalOpen, setModalOpen] = useState(false);
 
-    
+    const openModal = () => {
+        setModalOpen(true);
+    };
+    const closeModal = () => {
+        setModalOpen(false);
+    };
     return (
         <div className="div12">
-            <a href="https://www.terra-iplus.org/" target="blank"> <p className="div12container__text" >
+           <p className="div12container__text" onClick={openModal}  >
         Satellite based solution for Agroforestry Supply Chain Sustainability
-        </p></a>
+        </p>
+        {modalOpen && (
+            <div className="modalT-container">
+                <div className="modalT-content">
+                
+                <button className="close-buttonT" onClick={closeModal}>
+                    X
+                </button>
+                <img className='imgModalT' src="./webs/modal12.PNG" alt="" />
+                <button className="url-buttonT">
+                    <a href="https://www.terra-iplus.org/" target="blank"> 
+                    
+                        GO THERE
+                        
+                    </a>
+                </button>
+                </div>
+            </div>
+            )}
        
 
 </div>

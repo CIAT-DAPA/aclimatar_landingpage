@@ -190,7 +190,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 .div11container__text{
     font-size: 1rem;

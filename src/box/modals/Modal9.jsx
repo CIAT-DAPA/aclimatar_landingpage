@@ -6,28 +6,33 @@ const Modal9 = () => {
     const [modalOpen, setModalOpen] = useState(false);
 
     const openModal = () => {
-      setModalOpen(true);
+        setModalOpen(true);
     };
-  
     const closeModal = () => {
-      setModalOpen(false);
+        setModalOpen(false);
     };
     return (
         <div className="div9">
-            <a onClick={openModal} href="https://adaptation.aclimatar.org/" target="blank"> 
-                <span className="div9container__text">
+           
+                <span  onClick={openModal} className="div9container__text">
                 Africa
                 </span>
-            </a>
-       
+            
 
             {modalOpen && (
-            <div className="modal9-container">
-                <div className="modal9-content">
-                <p>Contenido del modal</p>
-                {/* <img src="./webs/modal9.PNG" alt="" /> */}
-                <button className="close-button9" onClick={closeModal}>
-                    Cerrar Modal
+            <div className="modalT-container">
+                <div className="modalT-content">
+                
+                <button className="close-buttonT" onClick={closeModal}>
+                    X
+                </button>
+                <img className='imgModalT' src="./webs/modal9.PNG" alt="" />
+                <button className="url-buttonT">
+                    <a href="https://adaptation.aclimatar.org/" target="blank"> 
+                    
+                        GO THERE
+                        
+                    </a>
                 </button>
                 </div>
             </div>

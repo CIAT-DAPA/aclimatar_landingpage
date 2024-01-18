@@ -1,5 +1,4 @@
 import { useState } from 'react';
-// import { motion } from "framer-motion";
 import './style.css'
 const Modal11 = () => {
     const [modalOpen, setModalOpen] = useState(false);
@@ -15,7 +14,7 @@ const Modal11 = () => {
     
     return (
         <div className="div11" >
-                <span onClick={openModal} className="div11container__text">
+                <span onClick={openModal}  className="div11container__text">
                     DEFORESTATION-FREE PRODUCTION
                 </span> 
 
