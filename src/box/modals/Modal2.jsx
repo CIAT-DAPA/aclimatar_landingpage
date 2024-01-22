@@ -19,7 +19,7 @@ const Modal2 = () => {
         </div>
         {modalOpen && (
                     
-                    <div className="modal2-content">
+                    <div className="modal2-content overlay">
                         <button className="close-button2" onClick={closeModal}>
                         X
                         </button>

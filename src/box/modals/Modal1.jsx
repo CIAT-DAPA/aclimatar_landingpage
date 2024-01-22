@@ -45,7 +45,7 @@ const Modal1 = () => {
         </section>
         {modalOpen && (
                     
-                    <div className="modal1-content">
+                    <div className="modal1-content overlay">
                         <p>Climate action in cocoa and coffee involves both adaptation and mitigation of climate change.
                         Climate action requires to strengthen the resilience of producers to climate hazards on short and
                         long time scales, reduce emissions on farm, stop deforestation, and build knowledge and capacity.  </p>
