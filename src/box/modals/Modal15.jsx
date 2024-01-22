@@ -18,7 +18,7 @@ const Modal15 = () => {
 
         </p>
         {modalOpen && (
-            <div className="modalT-container">
+            <div className="modalT-container overlay">
                 <div className="modalT-content">
                 
                 <button className="close-buttonT" onClick={closeModal}>
