@@ -30,6 +30,7 @@ const Modal5 = () => {
                 <button className="close-buttonT" onClick={closeModal}>
                     X
                 </button>
+                <p className="title-modal">REGENERATIVE AGRICULTURE</p>     
                 <img className='imgModalT' src="./webs/modal5.PNG" alt="" />
                 <button className="url-buttonT">
                     <a href="https://alliancebioversityciat.org/stories/guide-regenerative-coffee-farming" target="blank"> 

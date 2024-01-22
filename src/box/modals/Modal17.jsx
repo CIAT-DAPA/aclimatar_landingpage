@@ -26,6 +26,7 @@ const Modal17 = () => {
                 <button className="close-buttonT" onClick={closeModal}>
                     X
                 </button>
+                <p className="title-modal">Integrated soil fertility management</p> 
                 <img className='imgModalT' src="./webs/modal17.PNG" alt="" />
                 <button className="url-buttonT">
                     <a href="https://eia.cgiar.org/use-cases/USC003" target="blank"> 

@@ -21,6 +21,7 @@ const Modal12 = () => {
                 <button className="close-buttonT" onClick={closeModal}>
                     X
                 </button>
+                <p className="title-modal"> Satellite based solution for Agroforestry Supply Chain Sustainability</p>                
                 <img className='imgModalT' src="./webs/modal12.PNG" alt="" />
                 <button className="url-buttonT">
                     <a href="https://www.terra-iplus.org/" target="blank"> 

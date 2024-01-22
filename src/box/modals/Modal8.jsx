@@ -24,6 +24,7 @@ const Modal8 = () => {
                 <button className="close-buttonT" onClick={closeModal}>
                     X
                 </button>
+                <p className="title-modal">Central America</p>  
                 <img className='imgModalT' src="./webs/modal8.PNG" alt="" />
                 <button className="url-buttonT">
                     <a href="https://aclimatar.org/" target="blank"> 

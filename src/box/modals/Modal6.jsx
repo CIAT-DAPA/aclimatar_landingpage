@@ -25,6 +25,7 @@ const Modal6 = () => {
                 <button className="close-buttonT" onClick={closeModal}>
                     X
                 </button>
+                <p className="title-modal">TREE-BASED RESTORATION AND AGROFORESTRY</p>  
                 <img className='imgModalT' src="./webs/modal6.PNG" alt="" />
                 <button className="url-buttonT">
                     <a href="https://www.diversityforrestoration.org/" target="blank"> 

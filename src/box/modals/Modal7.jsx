@@ -22,6 +22,7 @@ const Modal7 = () => {
                 <button className="close-buttonT" onClick={closeModal}>
                     X
                 </button>
+                <p className="title-modal"> STRATEGIC LONG TERM ADAPTATION</p>  
                 <img className='imgModalT' src="./webs/default.png" alt="" />
                 <button className="url-buttonT">
                     <a href="##" target="blank"> 

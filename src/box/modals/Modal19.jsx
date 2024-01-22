@@ -24,6 +24,7 @@ const Modal19 = () => {
                 <button className="close-buttonT" onClick={closeModal}>
                     X
                 </button>
+                <p className="title-modal">CLIMATE SMART COFFEE BASICS</p> 
                 <img className='imgModalT' src="./webs/modal19.PNG" alt="" />
                 <button className="url-buttonT">
                     <a href="https://climatesmartcoffee.cgiar.org/" target="blank"> 

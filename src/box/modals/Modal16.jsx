@@ -22,6 +22,7 @@ const Modal16 = () => {
                 <button className="close-buttonT" onClick={closeModal}>
                     X
                 </button>
+                <p className="title-modal"> Yield estimation for planning</p> 
                 <img className='imgModalT' src="./webs/modal16.PNG" alt="" />
                 <button className="url-buttonT">
                     <a href="https://croppie.org/" target="blank"> 

@@ -28,6 +28,7 @@ const Modal10 = () => {
                 <button className="close-buttonT" onClick={closeModal}>
                     X
                 </button>
+                <p className="title-modal">FREE ONLINE LEARNING MODULE</p>  
                 <img className='imgModalT' src="./webs/default.png" alt="" />
                 <button className="url-buttonT">
                     <a href="https://eiademo.irri.org/enrol/index.php?id=163" target="blank"> 

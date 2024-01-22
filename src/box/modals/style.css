@@ -160,7 +160,7 @@
   height: 70%;
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: center;
   border: 1px solid black;
 }
 .imgModalT {
@@ -171,6 +171,8 @@
 .close-buttonT {
   color: black;
   border: none;
+  align-self: start;
+  margin-left: auto;
 
 }
 .url-buttonT {
@@ -180,6 +182,7 @@
   border: none;
   border-radius: 4px;
   margin-top: 10px;
+  margin-left: auto;
 }
 
 
@@ -230,4 +233,10 @@
     background-color: white;
     color: black;
     border: 1px solid black;
+  }
+
+  .title-modal{
+    font-size: 1.4rem;
+    color: gray;
+    padding: 2% ;
   }
