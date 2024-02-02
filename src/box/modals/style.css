@@ -259,3 +259,36 @@
     padding: 10% ;
     margin-top: 1%;
   }
+
+  
+@media screen and (max-width: 600px) {
+  .modal1-content {
+  
+    font-size: 1.4rem;
+    
+}
+.modal2-content {
+  width: 100%;
+  font-size: 0.8rem;
+}
+.modal3-content {
+  width: 100%;
+  font-size: 0.8rem;
+}
+.modal4-content {
+  width: 100%;
+  font-size: 0.8rem;
+}
+.modalT-content {
+  
+  width: 90vw;
+  height: 80vh;
+  justify-content: space-between;
+}
+.title-modal {
+  font-size: 1.2rem;
+}
+.text-modal {
+  font-size: 1.0rem;
+}
+}

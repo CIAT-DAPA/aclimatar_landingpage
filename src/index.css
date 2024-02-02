@@ -114,3 +114,71 @@
     grid-area: 5 / 8 / 7 / 11; 
     background-color: #8d44af;
   }
+ 
+@media screen and (max-width: 600px) {
+  .parent {
+    grid-template-columns: 1fr; /* Cambia a una sola columna */
+    grid-template-rows: repeat(19, 1fr); /* Ajusta el número de filas según el contenido */
+   
+  }
+
+  /* Ajusta las áreas de las cajas para ocupar una fila cada una */
+  .div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, 
+  .div10, .div11, .div12, .div13, .div14, .div15, .div16, .div17, 
+  .div18, .div19 {
+    grid-area: auto; /* Restaura la disposición automática en la cuadrícula */
+  }
+  .div2 {
+    height: 200px;
+  }
+  .div5 { grid-area: 3 / 1 / 4 / 2;
+    height: 110px; }
+  .div11 { grid-area: 4 / 1 / 5 / 2; 
+    height: 80px;}
+  /* .div2 permanece en su posición actual */
+  .div13 { grid-area: 6 / 1 / 7 / 2;      height: 100px;}
+  .div12 {
+  
+    height: 100px;
+}
+
+  .div3 { grid-area: 7 / 1 / 9 / 2; 
+    height: 200px;
+  }
+  .div6 { grid-area: 9 / 1 / 10 / 2; 
+    height: 90px;
+  }
+  .div7 { grid-area: 10 / 1 / 11 / 2; 
+    height: 60px;
+  }
+  .div8 { grid-area: 11 / 1 / 12 / 2; 
+    height: 80px;
+  }
+  .div9 { grid-area: 12 / 1 / 13 / 2; 
+    height: 80px;
+  }
+
+  .div14 { grid-area: 13 / 1 / 15 / 2; 
+    height: 90px;
+  }
+  .div15 { grid-area: 15 / 1 / 16 / 2; 
+    height: 60px;
+  }
+  .div16 { grid-area: 16 / 1 / 17 / 2; 
+    height: 80px;
+  }
+  .div17 { grid-area: 17 / 1 / 18 / 2;
+    height: 80px; }
+
+  .div4 { grid-area: 18 / 1 / 19 / 2; 
+    height: 200px;}
+  .div10 { grid-area: 19 / 1 / 20 / 2; 
+    height: 120px;}
+  .div19 { grid-area: 20 / 1 / 21 / 2; 
+    height: 80px;}
+  .div18 { grid-area: 21 / 1 / 22 / 2;
+    height: 80px;
+  }
+ 
+
+}

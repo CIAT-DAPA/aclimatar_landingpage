@@ -24,3 +24,15 @@
     padding: 0 1rem;
     text-align: center;
 }
+
+
+@media screen and (max-width: 600px) {
+    .containerBar div {
+        display: none;
+    
+    }
+    .containerBar {
+        justify-content: center;
+        
+    }
+  }
