@@ -1,14 +1,43 @@
+import { useState } from 'react';
+import './style.css'
 const Modal6 = () => {
+    const [modalOpen, setModalOpen] = useState(false);
 
+    const openModal = () => {
+        setModalOpen(true);
+    };
+    const closeModal = () => {
+        setModalOpen(false);
+    };
     
     return (
         <div className="div6">
-              <a href="https://www.diversityforrestoration.org/" target="blank"> 
-                <span className="div6container__text">
+             
+                <span onClick={openModal}  className="div6container__text">
                     TREE-BASED RESTORATION AND AGROFORESTRY
                 </span>
-            </a>
+            
+
+            {modalOpen && (
+            <div className="modalT-container overlay">
+                <div className="modalT-content">
+                
+                <button className="close-buttonT" onClick={closeModal}>
+                    X
+                </button>
+                <p className="title-modal">TREE-BASED RESTORATION AND AGROFORESTRY</p>  
+                <img className='imgModalT' src="./webs/modal6.PNG" alt="" />
+                <button className="url-buttonT">
+                    <a href="https://www.diversityforrestoration.org/" target="blank"> 
+                    
+                        GO THERE
+                        
+                    </a>
+                </button>
+                </div>
             </div>
+            )}
+        </div>
     
     );
 };

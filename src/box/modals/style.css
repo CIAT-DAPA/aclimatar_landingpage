@@ -1,9 +1,211 @@
 /* MODALLES */
+/* _____________1____________ */
+.overlay{ position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  animation: fadeIn 1.4s ease;
+  
+}
+@keyframes fadeIn {
+  0% { opacity: 0;}
+}
+
+.modal1-content {
+  background-color: #6dba4e;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem 20px 1rem;
+  text-align: justify;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  top: 0px;
+  height: 100%;
+}
+
+.close-button1 {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 2px 9px;
+  border: none;
+  border-radius: 50%;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+.close-button1:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+/* _______________2______________ */
+.modal2-content {
+  background-color: #f1c40f;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 20px 1rem;
+  text-align: justify;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  top: 0px;
+  height: 100%;
+  left: 0;
+}
+
+.close-button2 {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 2px 9px;
+  border: none;
+  border-radius: 50%;
+  font-weight: bold;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+  border: 1px solid black;
+}
+.close-button2:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+/* _______________3______________ */
+.modal3-content {
+  background-color:#5271ff;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 20px 1rem;
+  text-align: justify;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  top: 0px;
+  height: 100%;
+  left: 0;
+}
+.close-button3 {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 2px 9px;
+  border: none;
+  border-radius: 50%;
+  font-weight: bold;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+  border: 1px solid black;
+}
+.close-button3:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+/* _______________4______________ */
+.modal4-content {
+  background-color :#8c52ff;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 20px 1rem;
+  text-align: justify;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  top: 0px;
+  height: 100%;
+  left: 0;
+}
+.close-button4 {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 2px 9px;
+  border: none;
+  border-radius: 50%;
+  font-weight: bold;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+  border: 1px solid black;
+}
+.close-button4:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+/* _________________9______________ */
+/* Estilos para el modal */
+.modalT-container {
+  position: fixed;
+    top: 0;
+    /* left: 200px; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalT-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black; 
+}
+.imgModalT {
+  max-width: 100%;
+  max-height: 70%;
+}
+
+.close-buttonT {
+  color: black;
+  border: none;
+  align-self: start;
+  margin-left: auto;
+
+}
+.url-buttonT {
+  cursor: pointer;
+  background-color: #6dba4e;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: auto;
+}
+
 
 /* ______________11_____________ */
 /* Estilos para el modal */
 .modal11-container {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -19,10 +221,7 @@
     border-radius: 2px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     position: absolute;
-    top: 163px;
-    right: 143px;
     width: 410px;
-    height: 68%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +230,8 @@
     text-align: justify;
     font-size: 1.1rem;
     letter-spacing: 1px;
-    
+    top: 160px;
+    height: 430px;
   }
   
   .close-button11 {
@@ -50,3 +250,48 @@
     color: black;
     border: 1px solid black;
   }
+
+  .title-modal{
+    font-size: 1.2rem;
+    color: gray;
+    padding: 2% ;
+  }
+  .text-modal{
+    font-size: 1.2rem;
+    color: gray;
+    padding: 10% ;
+    margin-top: 1%;
+  }
+
+  
+@media screen and (max-width: 600px) {
+  .modal1-content {
+  
+    font-size: 1.4rem;
+    
+}
+.modal2-content {
+  width: 100%;
+  font-size: 0.7rem;
+}
+.modal3-content {
+  width: 100%;
+  font-size: 0.8rem;
+}
+.modal4-content {
+  width: 100%;
+  font-size: 0.8rem;
+}
+.modalT-content {
+  
+  width: 90vw;
+  height: 80vh;
+  justify-content: space-between;
+}
+.title-modal {
+  font-size: 1.2rem;
+}
+.text-modal {
+  font-size: 0.9rem;
+}
+}

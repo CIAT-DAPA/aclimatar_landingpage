@@ -10,3 +10,21 @@
 .footerContain p span{
     font-weight: 600;
 }
+.mobileFooter{
+    display: none;
+
+}
+@media screen and (max-width: 600px) {
+    .mobileFooter{
+        display: flex;
+        justify-content: end;
+    
+    }
+    .mobileFooter img {
+        width: 100px;
+        height: 70px;
+    }
+    .footerContain {
+        font-size: 0.8rem;
+    }
+}

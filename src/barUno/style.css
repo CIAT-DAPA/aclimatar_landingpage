@@ -9,9 +9,10 @@
     width: 400px;
 }
 .containerBar div img{
-    width: 85px;
+    width: 170px;
     height: 90px;
 }
+
 .title{
     font-size: 40px;
     letter-spacing: 5px;
@@ -23,3 +24,15 @@
     padding: 0 1rem;
     text-align: center;
 }
+
+
+@media screen and (max-width: 600px) {
+    .containerBar div {
+        display: none;
+    
+    }
+    .containerBar {
+        justify-content: center;
+        
+    }
+  }
