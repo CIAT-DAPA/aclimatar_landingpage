@@ -119,7 +119,7 @@
   .parent {
     grid-template-columns: 1fr; /* Cambia a una sola columna */
     grid-template-rows: repeat(19, 1fr); /* Ajusta el número de filas según el contenido */
-   
+    height: 2700px;
   }
 
   /* Ajusta las áreas de las cajas para ocupar una fila cada una */
