@@ -24,14 +24,11 @@ const Modal13 = () => {
                     X
                 </button>
                 <p className="title-modal">Community-led deforestation alert monitoring</p>  
-                <img className='imgModalT' src="./webs/default.png" alt="" />
-                <button className="url-buttonT">
-                    <a href="##" target="blank"> 
-                    
-                        GO THERE
-                        
-                    </a>
-                </button>
+                <p className="text-modal">Community-led deforestation alert monitoring is an effective approach to halting deforestation.
+                        Rewarding communities with outcome-based payments for ecosystem services incentivizes reporting
+                        and intervention against illegitimate deforestation. In our approach, locally calibrated real-time
+                        monitoring informs local forest guards.</p>
+              
                 </div>
             </div>
             )}

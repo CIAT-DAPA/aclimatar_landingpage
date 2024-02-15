@@ -26,12 +26,9 @@ const Modal11 = () => {
                       <button className="close-buttonT" onClick={closeModal}>
                           X
                       </button>
-                      <p className="title-modal">FREE ONLINE LEARNING MODULE</p>  
+                      <p className="title-modal">DEFORESTATION-FREE PRODUCTION</p>  
                       
-                      <p className="text-modal">Community-led deforestation alert monitoring is an effective approach to halting deforestation.
-                        Rewarding communities with outcome-based payments for ecosystem services incentivizes reporting
-                        and intervention against illegitimate deforestation. In our approach, locally calibrated real-time
-                        monitoring informs local forest guards.</p>
+                      <p className="text-modal">Comming soon</p>
                     
                       </div>
                   </div>
