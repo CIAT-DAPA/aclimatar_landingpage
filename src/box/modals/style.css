@@ -296,3 +296,12 @@
   font-size: 0.9rem;
 }
 }
+  
+@media screen and (max-width: 1000px) {
+  .modal1-content {
+  
+    font-size: 0.7rem;
+    
+}
+
+}
