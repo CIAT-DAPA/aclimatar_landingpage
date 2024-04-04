@@ -25,14 +25,8 @@ const Modal15 = () => {
                     X
                 </button>
                 <p className="title-modal">SUSTAINABLE INTENSIFICATION</p> 
-                <img className='imgModalT' src="./webs/default.png" alt="" />
-                <button className="url-buttonT">
-                    <a href="##" target="blank"> 
-                    
-                        GO THERE
-                        
-                    </a>
-                </button>
+                <p className="text-modal">Maximizing yields while minimizing environmental impact through efficient resource use, agroecological practices, and effective financial planning.</p>
+              
                 </div>
             </div>
             )}

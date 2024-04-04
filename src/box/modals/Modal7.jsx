@@ -23,14 +23,7 @@ const Modal7 = () => {
                     X
                 </button>
                 <p className="title-modal"> STRATEGIC LONG TERM ADAPTATION</p>  
-                <img className='imgModalT' src="./webs/default.png" alt="" />
-                <button className="url-buttonT">
-                    <a href="##" target="blank"> 
-                    
-                        GO THERE
-                        
-                    </a>
-                </button>
+                <p className="text-modal">Proactive adaptation and prioritization of climate smart practices to address climate change impacts, ensuring sustained resilience and viability of production over time. </p>
                 </div>
             </div>
             )}

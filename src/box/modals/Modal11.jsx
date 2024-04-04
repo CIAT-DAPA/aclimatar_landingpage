@@ -28,7 +28,7 @@ const Modal11 = () => {
                       </button>
                       <p className="title-modal">DEFORESTATION-FREE PRODUCTION</p>  
                       
-                      <p className="text-modal">Comming soon</p>
+                      <p className="text-modal">Inclusive approaches to halt deforestation - Terra-i+ provides precise land cover maps and biweekly deforestation alerts, meeting demands driven by sustainability standards and the EU Deforestation-Free Regulation (EUDR) traceability mandate. </p>
                     
                       </div>
                   </div>
