@@ -29,9 +29,9 @@ const Modal10 = () => {
                     X
                 </button>
                 <p className="title-modal">FREE ONLINE LEARNING MODULE</p>  
-                <img className='imgModalT' src="./webs/default.png" alt="" />
+                <img className='imgModalT' src="./webs/modal10.PNG" alt="" />
                 <button className="url-buttonT">
-                    <a href="https://eiademo.irri.org/enrol/index.php?id=163" target="blank"> 
+                    <a href="https://learn.eia.cgiar.org/course/view.php?id=163" target="blank"> 
                     
                         GO THERE
                         
