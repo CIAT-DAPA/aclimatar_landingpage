@@ -27,9 +27,9 @@ const Modal18 = () => {
                     X
                 </button>
                 <p className="title-modal">CLIMATE SMART COCOA BASICS</p> 
-                <img className='imgModalT' src="./webs/default.png" alt="" />
+                <img className='imgModalT' src="./webs/modal18.png" alt="" />
                 <button className="url-buttonT">
-                    <a href="##" target="blank"> 
+                    <a href="https://web.archive.org/web/20240530010313/https://climatesmartcocoa.guide/" target="blank"> 
                     
                         GO THERE
                         
